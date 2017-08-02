@@ -57,7 +57,6 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    devcamp_view_tool (0.1.0)
     devise (4.3.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -114,6 +113,7 @@ GEM
     petergate (1.7.5)
       activerecord (> 4.0.0)
     pg (0.21.0)
+    plazzap_view_tool (0.1.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -207,7 +207,6 @@ DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
-  devcamp_view_tool (~> 0.1.0)
   devise (~> 4.2)
   font-awesome-rails (~> 4.7, >= 4.7.0.1)
   friendly_id (~> 5.1.0)
@@ -217,6 +216,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   petergate (~> 1.7)
   pg (~> 0.18)
+  plazzap_view_tool (~> 0.1.0)
   pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.1)
