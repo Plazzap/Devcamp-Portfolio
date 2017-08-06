@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "gritter";
+
 /*
  * Globals
  */
@@ -178,7 +179,7 @@ h6, .h6 {
 }
 
 .comment-card > .card {
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .comment-attribution {
@@ -187,10 +188,14 @@ h6, .h6 {
 }
 
 .comment-name {
-  font-weight: .700;
+  font-weight: 700;
 }
 
 .blogcrumb a {
-  font-size: 1.25m;
+  font-size: 1.25em;
   margin: 0px 10px 0px 10px;
+}
+
+.blog-nav {
+  margin-bottom: 30px;
 }
