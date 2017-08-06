@@ -16,4 +16,8 @@ class Blog < ApplicationRecord
   def self.featured_blogs
     limit(2)
   end
+  
+  def self.recent
+    prder("created_at DESC")
+  end
 end
